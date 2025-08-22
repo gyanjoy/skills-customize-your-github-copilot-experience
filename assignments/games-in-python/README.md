@@ -1,19 +1,40 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Games in Python
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a classic Hangman game in Python to practice string manipulation, loops, conditionals, and random selection.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Create the Hangman Game
 
-## ✅ Must Have's
+#### Description
+Write a Python program that lets a player guess letters to reveal a hidden word before running out of attempts.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Randomly select a word from a predefined list
+- Accept letter guesses from the user
+- Show the current progress (e.g., _ _ a _ _ _)
+- Track and display the number of incorrect guesses remaining
+- End the game when the word is guessed or attempts are exhausted
+- Display a win or lose message at the end
+
+<details>
+<summary>Example Output</summary>
+
+```python
+Welcome to Hangman!
+Word: _ _ _ _ _
+Guesses left: 6
+Guess a letter: a
+Word: _ a _ _ _
+Guesses left: 6
+Guess a letter: e
+Word: _ a _ _ e
+Guesses left: 6
+... (game continues)
+```
+</details>
